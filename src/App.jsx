@@ -4,7 +4,6 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Project from "./components/project/Project"
 import Contact from "./components/contact/Contact"
 import "./app.scss"
-import 'normalize.css';
 
 function App() {
   return (
