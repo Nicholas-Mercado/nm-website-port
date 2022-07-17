@@ -4,6 +4,7 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Project from "./components/project/Project"
 import Contact from "./components/contact/Contact"
 import "./app.scss"
+import Menu from "./components/menu/Menu";
 import { useState } from "react";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className="app">
       <Topbar menuOpen={menuOpen}
         toggleMenu={toggleMenu} />
+      <Menu/>
       <div className="sections">
         <Intro menuOpen={menuOpen} />
         <Portfolio />
