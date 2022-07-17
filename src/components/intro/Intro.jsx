@@ -1,8 +1,9 @@
 import "./intro.scss"
 
-export default function Intro() {
+
+export default function Intro({menuOpen}) {
   return (
-    <div className='intro' id="intro"></div>
+    <div id="intro" className={"intro " + (menuOpen && "active ")} ></div>
   )
 }
 

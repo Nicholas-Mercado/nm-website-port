@@ -1,4 +1,8 @@
 .intro{
     background-color: lightblue;
     display: flex;
+
+    &.active {
+        background-color: black;
+    }
 }
