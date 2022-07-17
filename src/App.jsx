@@ -8,19 +8,24 @@ import { useState } from "react";
 
 function App() {
   const [menuOpen, toggleMenuOpen] = useState(false)
+
+  function toggleMenu() {
+    toggleMenuOpen(!menuOpen)
+  }
+
   return (
 
-      <div className="app">
-        <Topbar menuOpen={menuOpen} 
-                toggleMenuOpen={toggleMenuOpen}/>
-        <div className="sections">
-          <Intro menuOpen={menuOpen}/>
-          <Portfolio/>
-          <Project/>
-          <Contact/>
+    <div className="app">
+      <Topbar menuOpen={menuOpen}
+        toggleMenu={toggleMenu} />
+      <div className="sections">
+        <Intro menuOpen={menuOpen} />
+        <Portfolio />
+        <Project />
+        <Contact />
 
-        </div>
       </div>
+    </div>
 
   );
 }
