@@ -1,12 +1,13 @@
 @import "../../global.scss";
 
 .intro {
-    background-color:#e9c3b7;
+    background-color:#1d1d1d;
     display: flex;
     flex-direction: column;
     .top{
         flex: 0.4;
-        background-color: #e9c3b7;
+        background-color: 
+        #1d1d1d;
         position: relative;
         
         a{
@@ -22,7 +23,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            color: black;
+            color: #f4e04e;
             
             h2{
                 font-size: 60px;
@@ -38,7 +39,7 @@
     }
     .bottom{
         flex: 0.6;
-        background-color:#e9c3b7;
+        background-color:#1d1d1d;
 
         .imgContainer{
             text-align: center;

@@ -13,7 +13,7 @@ export default function Intro({ menuOpen }) {
         </div>
         <a href="#portfolio">
           <KeyboardArrowDownRoundedIcon 
-            style={{ color: 'black',fontSize: 60 }}
+            style={{ color: '#f4e04e',fontSize: 90 }}
           />
         </a>
       </div>
