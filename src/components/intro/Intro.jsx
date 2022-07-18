@@ -18,7 +18,7 @@ export default function Intro( ) {
           <h1> Nicholas Mercado</h1>
           <h2 ><Typewriter 
            options={{ 
-           strings:["Developer", "Coder", "Problem Solver", "Photographer"],
+           strings:["Developer", "Coder", "Problem Solver", "Creator"],
            autoStart:true,
            delay:75,
            loop:true
