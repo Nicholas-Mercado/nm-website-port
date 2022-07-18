@@ -2,7 +2,7 @@ import "./topbar.scss"
 import PhoneAndroidOutlinedIcon from '@mui/icons-material/PhoneAndroidOutlined';
 import MailRoundedIcon from '@mui/icons-material/MailRounded';
 
-export default function Topbar({menuOpen, toggleMenuOpen}) {
+export default function Topbar({menuOpen, toggleMenu}) {
   return (
     <div className={"topbar " + (menuOpen && "active ")}>
       <div className="wrapper">
@@ -19,7 +19,7 @@ export default function Topbar({menuOpen, toggleMenuOpen}) {
         </div>
 
         <div className="right">
-          <div className="hamburger" onClick={()=>toggleMenuOpen(!menuOpen)}>
+          <div className="hamburger" onClick={toggleMenu}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
