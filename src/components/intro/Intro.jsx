@@ -3,7 +3,7 @@ import "./intro.scss"
 
 export default function Intro({menuOpen}) {
   return (
-    <div id="intro" className={"intro " + (menuOpen && "active ")} ></div>
+    <div id="intro" className="intro "></div>
   )
 }
 

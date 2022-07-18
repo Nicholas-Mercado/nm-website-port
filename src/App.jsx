@@ -19,7 +19,8 @@ function App() {
     <div className="app">
       <Topbar menuOpen={menuOpen}
         toggleMenu={toggleMenu} />
-      <Menu/>
+      <Menu menuOpen={menuOpen}
+        toggleMenu={toggleMenu}/>
       <div className="sections">
         <Intro menuOpen={menuOpen} />
         <Portfolio />
