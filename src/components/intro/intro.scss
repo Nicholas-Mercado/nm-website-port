@@ -1,8 +1,62 @@
-.intro{
-    background-color: lightblue;
-    display: flex;
+@import "../../global.scss";
 
-    &.active {
-        background-color: black;
+.intro {
+    background-color:#1d1d1d;
+    display: flex;
+    flex-direction: column;
+    .top{
+        flex: 0.4;
+        background-color: 
+        #1d1d1d;
+        position: relative;
+        
+        a{
+            justify-content: center;
+            display: flex;
+            img{
+                width: 100px;
+            }
+        }
+        .wrapper{
+            margin-top: 5%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: #f4e04e;
+            
+            h2{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h1{
+                font-size: 60px;
+            }
+            h3{
+                font-size: 35px;
+                margin: 10px 0;
+            }
+        }
+        
+    }
+    .bottom{
+        flex: 0.6;
+        background-color:#1d1d1d;
+
+        .imgContainer{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+
+            img{
+                // border-top-left-radius: 50%;
+                // border-top-right-radius: 50%;
+                // background-color:#9d0707;
+                width: 40%;
+                position: absolute;
+                bottom: 0;
+            }
+        }
     }
 }
