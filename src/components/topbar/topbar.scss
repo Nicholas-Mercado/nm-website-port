@@ -3,8 +3,9 @@
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: $mainColor;
-    color: white;
+    background-color: 
+    #ffffff;
+    color: black;
     top: 0;
     position: fixed;
     z-index: 3;
@@ -19,12 +20,12 @@
         .left {
             display: flex;
             align-items: center;
-
+            
             .logo {
                 font-size: 40px;
                 font-weight: 700;
                 text-decoration: none;
-                color: inherit;
+                color: black;
                 margin-right: 40px;
             }
 
@@ -63,7 +64,8 @@
             span {
                 width: 100%;
                 height: 3px;
-                background-color: whitesmoke;
+                background-color: 
+                black;
                 transform-origin: left;
                 transition: all 1s ease;
             }
@@ -74,14 +76,16 @@
         .hamburger {
           span {
             &:first-child {
-              background-color: white;
+              background-color: 
+              black;
               transform: rotate(45deg);
             }
             &:nth-child(2) {
               opacity: 0;
             }
             &:last-child {
-              background-color: white;
+              background-color: 
+              black;
               transform: rotate(-45deg);
             }
           }
