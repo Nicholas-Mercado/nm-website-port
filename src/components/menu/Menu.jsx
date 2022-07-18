@@ -1,20 +1,20 @@
 import "./menu.scss"
 
 
-export default function Menu({menuOpen, toggleMenuOpen}) {
+export default function Menu({menuOpen, toggleMenu}) {
   return (
     <div className={"menu "+(menuOpen && "active")}>
         <ul>
-            <li>
+            <li onClick={()=>toggleMenu(false)}>
                 <a href="#intro">Home</a>
             </li>
-            <li>
+            <li onClick={()=>toggleMenu(false)}>
                 <a href="#portfolio">Portfolio</a>
             </li>
-            <li>
-                <a href="#project">Project</a>
+            <li onClick={()=>toggleMenu(false)}>
+                <a href="#project">Projects</a>
             </li>
-            <li>
+            <li onClick={()=>toggleMenu(false)}>
                 <a href="#contact">Contact</a>
             </li>
         </ul>

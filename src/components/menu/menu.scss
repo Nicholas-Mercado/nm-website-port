@@ -10,23 +10,29 @@
     z-index: 2;
     display: flex;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     transition: all 1.5s ease;
 
     &.active{
         right:0;
     }
     ul{
+        margin-top: 100px;
         list-style: none;
-        font-size: 40px;
+        font-size: 39px;
         color:aliceblue;
         font-weight: 200;
+        width: 50%;
 
         li{
-            a{
+            margin-bottom: 20px;
+            a{  
                 font-size: inherit;
                 color:aliceblue;
                 text-decoration: none;
+            }
+            &:hover{
+                font-weight: 500;
             }
         }
     }
