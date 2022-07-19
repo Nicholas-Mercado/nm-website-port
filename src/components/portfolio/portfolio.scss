@@ -1,3 +1,27 @@
 .portfolio{
-    background-color: lightpink;
+    background-color: #1d1d1d;
+
+    h2{
+        font-size: 70px;
+        color: #12f5d3;
+    }
+    
+    .swiper{
+        .swiperSlide{
+            .wrapper{
+                h3{
+                    font-size: 40px;
+                    color: white;
+                }
+                p{
+                    color:white
+                }
+
+                .projectImg{
+                    height: 40x;
+                }
+
+            }
+        }
+    }
 }
