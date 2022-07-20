@@ -3,12 +3,12 @@ const dataN = [
         "id": 1,
         "projectName": "Tech-Spotlight",
         "img": "assets/pic1.jpg",
-        "description": "loren ipsum, loren ipsum, loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum"
+        "description": "loren ipsum, loren ipsum, loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren "
     
     },
     {
         "id": 2,
-        "projectName": "Tech-Spotlight",
+        "projectName": "Check?",
         "img": "./pic1.jpg",
         "description": "loren ipsum, loren ipsum, loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum"
     
