@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./portfolio.scss";
 import dataN from './data.js';
+import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
+
 
 export default function Portfolio() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -26,7 +28,19 @@ export default function Portfolio() {
                   <div className="imgContainer">
                   </div>
                   <h2>{d.projectName}</h2>
-                  <p>{d.description}</p>
+                  <p>{d.description}</p>---
+                  <a target="_blank" href={d.GitHub} rel="noreferrer" >GitHub</a>
+                  <div>
+                  { 
+                  (d.Jupyter === '')
+                  ? <div></div> 
+                  : <div>
+                      <a target="_blank" href={d.Jupyter} rel="noreferrer" >Jupyter Notebook</a>
+                  </div> 
+                  }
+                    
+                  </div>
+
                 </div>
               </div>
               <div className="right">
@@ -36,18 +50,19 @@ export default function Portfolio() {
           </div>
         ))}
       </div>
-      <img
-        src="assets/test1.png"
+      <KeyboardArrowRightRoundedIcon 
+        style={{ color: 'white',fontSize: 100 }}
         className="arrow left"
         alt=""
         onClick={() => handleClick("left")}
-      />
-      <img
-        src="assets/test1.png"
+          />
+      
+      <KeyboardArrowRightRoundedIcon 
+        style={{ color: 'white',fontSize: 100 }}
         className="arrow right"
         alt=""
         onClick={() => handleClick()}
-      />
+          />
     </div>
   );
 }

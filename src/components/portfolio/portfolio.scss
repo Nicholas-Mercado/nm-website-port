@@ -65,13 +65,21 @@
 
             
             h2 {
-              font-size: 4vh;
+              font-size: 6vh;
+              text-decoration: underline;
 
              
             }
             p {
-              font-size: 1vh;
-              
+              margin: 10%;
+              font-size: 3vh;
+              text-indent: 50px;
+              line-height: 125%;
+            }
+            a{
+              font-size: 3vh;
+              text-decoration: none;
+              color:inherit;
             }
             span {
               font-size: 12px;
