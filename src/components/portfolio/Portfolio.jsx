@@ -13,7 +13,7 @@ export default function Portfolio() {
   };
   
   return (
-    <div className="works" id="works">
+    <div className="portfolio" id="portfolio">
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
