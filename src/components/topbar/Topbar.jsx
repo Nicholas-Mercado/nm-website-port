@@ -1,6 +1,4 @@
 import "./topbar.scss"
-// import PhoneAndroidOutlinedIcon from '@mui/icons-material/PhoneAndroidOutlined';
-// import MailRoundedIcon from '@mui/icons-material/MailRounded';
 
 export default function Topbar({menuOpen, toggleMenu}) {
   return (
@@ -11,13 +9,15 @@ export default function Topbar({menuOpen, toggleMenu}) {
             <a href="#intro" className="logo" >
               Nicholas Mercado
             </a>
-          
-          {/* <div className="itemContainer">
-            <PhoneAndroidOutlinedIcon className="icon "/>
-            <span className="iconRight">+555 555 5555</span>
-            <MailRoundedIcon className="icon"/>
-            <span>Nicholasamerc@gmail.com</span>
-          </div> */}
+            <div>
+              <a href="https://www.linkedin.com/in/nicholasmercado/">
+                <img className="smallIcons" alt="" src="assets/lw.png"/>
+              </a>
+              <a href="https://www.linkedin.com/in/nicholasmercado/">
+                <img className="smallIcons1" alt="" src="assets/tw.png"/>
+              </a>
+            </div>
+            
         </div>
 
         <div className="right">
