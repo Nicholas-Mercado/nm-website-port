@@ -35,10 +35,16 @@
                 display: flex;
                 align-items: center;
             }
-
+            .smallIcons{
+              width: 30px;
+            }
+            .smallIcons1{
+              width: 27px;
+              margin-bottom:2%
+            }
             .icon {
                 font-size: 30px;
-                margin: 10px;
+                // margin: 10px;
             }
 
             .iconRight {

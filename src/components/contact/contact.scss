@@ -1,3 +1,61 @@
-.contact{
-    background-color: lightblue;
+@import "../../global.scss";
+
+.contact {
+    background-color:white;
+    display: flex;
+
+    
+  .left {
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    .here {
+        color:black;
+        font-size: 10vh;
+        text-align: center; 
+        margin-top: 30%;   
+    }
+
+    }
+    .right {
+        flex: .5;
+        display: flex;
+        flex-direction: column;
+        background-color: #2ac6ff;
+  
+  
+          
+        .title-section{
+            color:white;
+            margin-left: 60%;
+            font-size: 6vh;
+
+            
+        }
+
+        .chat {
+            color:white;
+            font-size: 10vh;
+            text-align: center; 
+            margin-top: 20%;
+
+            .links{
+                
+                    color: inherit;
+                    font-size: 3vh;
+                    margin-top: 8%;
+                    font-weight: 100;
+                    text-decoration: none;
+                
+
+            }
+        }
+    }
 }
+  
+
+  
+
+      
