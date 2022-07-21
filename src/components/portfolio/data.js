@@ -20,10 +20,10 @@ const dataN = [
     {
         "id": 3,
         "projectName": "Animal Racer",
-        "img": "./pic1.jpg",
+        "img": "assets/racer.png",
         "GitHub":"https://github.com/The-Go-Gitters/trivia-race" ,
         "Jupyter": "",
-        "description": "loren ipsum, loren ipsum, loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum,loren ipsum, loren ipsum"
+        "description": "Animal Racer is a web-based trivia game built in JavaScript. Each turn has a new animal trivia question and if you answer correctly, you move closer to the finish line. Your opponent, the computer, races you around the track and has a probability of answering correctly."
     
     },
     
