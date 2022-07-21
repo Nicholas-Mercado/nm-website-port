@@ -28,13 +28,13 @@ export default function Intro( ) {
         </div>
         <a href="#portfolio">
           <KeyboardArrowDownRoundedIcon 
-            style={{ color: '#f4e04e',fontSize: 90 }}
+            style={{ color: '#fffeff',fontSize: 80 }}
           />
         </a>
       </div>
       <div className="bottom">
         <div className="imgContainer">
-          <img src="assets/test2.png" alt=""></img>
+          <img src="assets/me.png" alt=""></img>
         </div>
       </div>
     </div>
