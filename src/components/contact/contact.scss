@@ -1,61 +1,91 @@
 @import "../../global.scss";
 
 .contact {
-    background-color:white;
-    display: flex;
-
-    
-  .left {
-    flex: .5;
-    display: flex;
-    flex-direction: column;
     background-color: white;
-    
-    .here {
-        color:black;
-        font-size: 10vh;
-        text-align: center; 
-        margin-top: 30%;   
-    }
+    display: flex;
+
+
+    .left {
+        flex: .5;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+
+        p{
+                color: inherit;
+                font-size: 3vh;
+                font-weight: 200;
+                text-decoration: none;
+        }
+        .title-section {
+            color: white;
+            margin-left: 60%;
+            font-size: 6vh;
+
+
+        }
+        .here {
+            color: black;
+            font-size: 10vh;
+            text-align: center;
+            margin-top: 20%;
+        }
 
     }
+
     .right {
         flex: .5;
         display: flex;
         flex-direction: column;
         background-color: #2ac6ff;
-  
-  
-          
-        .title-section{
-            color:white;
+
+
+
+        .title-section {
+            color: white;
             margin-left: 60%;
             font-size: 6vh;
 
-            
+
         }
+    
 
         .chat {
-            color:white;
+            color: white;
             font-size: 10vh;
-            text-align: center; 
+            text-align: center;
             margin-top: 20%;
 
-            .links{
-                
-                    color: inherit;
-                    font-size: 3vh;
-                    margin-top: 8%;
-                    font-weight: 100;
-                    text-decoration: none;
-                
+            .links {
 
+                color: inherit;
+                font-size: 3vh;
+                margin-top: 8%;
+                font-weight: 100;
+                text-decoration: none;
+
+
+            }
+            .icon-row{
+                text-align: center;
+                margin-left: 50%;
+                width: 20%;
+                display: flex;
+                justify-content: space-evenly;
+
+                .smallIcons {
+                    width: 4vh;
+                }
+    
+                .smallIcons1 {
+                    width: 3vh;
+                    margin-bottom: 18%;
+                }
+                .smallIcons2 {
+                    width: 3vh;
+                    margin-bottom: 18%;
+                }
             }
         }
     }
 }
-  
-
-  
-
-      
