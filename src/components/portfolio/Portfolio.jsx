@@ -15,7 +15,15 @@ export default function Portfolio() {
   };
   
   return (
+    <>
+
     <div className="portfolio" id="portfolio">
+    <div className="port-area">
+      <div className="port">
+        <h3>Portfolio.</h3>
+      </div>
+
+    </div>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -64,5 +72,7 @@ export default function Portfolio() {
         onClick={() => handleClick()}
           />
     </div>
+      
+    </>
   );
 }

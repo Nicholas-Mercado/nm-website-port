@@ -1,12 +1,29 @@
 @import "../../global.scss";
 
+
 .portfolio {
-  background-color: #b0afb0;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-
+  .port-area{
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 40%;
+    margin-left: 75%;
+    margin-top: 15%;
+    margin-bottom: 40%;
+    .port{
+      color:black;
+      color: white;
+      font-size: 8vh;
+      
+    }
+  }
+  
   .arrow {
     height: 50px;
     position: absolute;
@@ -38,9 +55,9 @@
       justify-content: center;
 
       .item {
-        width: 150vh;
-        height: 100%;
-        background-color: inherit;
+        width: 180vh;
+        height: 90%;
+        background-color: #2ac6ff;
         display: flex;
         align-items: center;
         justify-content: center;
