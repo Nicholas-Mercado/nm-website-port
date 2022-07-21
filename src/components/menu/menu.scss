@@ -1,6 +1,6 @@
 @import "../../global.scss";
 
-.menu{
+.menu {
     width: 300px;
     height: 100vh;
     background-color: #050404;
@@ -13,25 +13,29 @@
     // align-items: center;
     transition: all 1.5s ease;
 
-    &.active{
-        right:0;
+    &.active {
+        right: 0;
     }
-    ul{
+
+    ul {
         margin-top: 100px;
         list-style: none;
         font-size: 39px;
-        color:#fefefe ;
+        color: #fefefe;
         font-weight: 300;
         width: 60%;
 
-        li{
+        li {
             margin-bottom: 20px;
-            a{  
+
+            a {
                 font-size: inherit;
-                color:#fefefe ;
+                color: #fefefe;
                 text-decoration: none;
             }
-            &:hover{
+
+            &:hover {
+
                 font-weight: 500;
             }
         }

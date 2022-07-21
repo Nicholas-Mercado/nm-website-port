@@ -1,3 +1,108 @@
-.portfolio{
-    background-color: lightpink;
+@import "../../global.scss";
+
+.portfolio {
+  background-color: #1d1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+
+    &.left {
+      left: 100px;
+      transform: rotateY(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 150vh;
+        height: 100%;
+        background-color: #1d1d1d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+       
+
+        .left {
+          flex: 4;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          // background-color:white;
+          justify-content: center;
+
+          .leftContainer {
+            width: 90%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            color:white;
+            // justify-content: space-between;
+
+            
+            h2 {
+              font-size: 6vh;
+              text-decoration: underline;
+
+             
+            }
+            p {
+              margin: 10%;
+              font-size: 3vh;
+              text-indent: 50px;
+              line-height: 125%;
+            }
+            a{
+              font-size: 3vh;
+              text-decoration: none;
+              color:inherit;
+            }
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            width: 80vh;
+            transform: rotate(-10deg);
+          }
+        }
+      }
+    }
+  }
 }
