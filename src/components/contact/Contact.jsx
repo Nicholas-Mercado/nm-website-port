@@ -26,13 +26,13 @@ export default function Contact() {
             <h3>Let's Chat.</h3>
             <a className="links" href="mailto:Nicholasamerc@gmail.com"><p>Email me! Nicholasamerc@gmail.com</p></a>
             <div className="icon-row">
-              <a href="https://www.linkedin.com/in/nicholasmercado/">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nicholasmercado/">
                 <img className="smallIcons" alt="" src="assets/lw.png"/>
               </a>
-              <a href="https://github.com/Nicholas-Mercado">
+              <a target="_blank" rel="noreferrer" href="https://github.com/Nicholas-Mercado">
                 <img className="smallIcons2" alt="" src="assets/github.png"/>
               </a>
-              <a href="https://www.linkedin.com/in/nicholasmercado/">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/_NMercado">
                 <img className="smallIcons1" alt="" src="assets/tw.png"/>
               </a>
             </div>
