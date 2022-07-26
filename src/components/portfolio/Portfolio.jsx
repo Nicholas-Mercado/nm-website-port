@@ -10,7 +10,7 @@ export default function Portfolio() {
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 3)
       : setCurrentSlide(currentSlide < dataN.length - 1 ? currentSlide + 1 : 0);
   };
   
@@ -18,21 +18,15 @@ export default function Portfolio() {
     <>
 
     <div className="portfolio" id="portfolio">
-    {/* <div className="port-area">
-      <div className="port">
-        <h3>Portfolio.</h3>
-      </div>
-
-    </div> */}
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
-        {dataN.map((d) => (
-          <div className="container">
+        {dataN.map((d, index) => ( 
+          <div key={index}  className="container">
             <div className="item">
               <div className="left">
-                <div className="leftContainer">
+                <div  className="leftContainer">
                   <div className="imgContainer">
                   </div>
                   <h2>{d.projectName}</h2>
