@@ -26,6 +26,15 @@ const dataN = [
         "description": "Animal Racer is a web-based trivia game built in JavaScript. Each turn has a new animal trivia question and if you answer correctly, you move closer to the finish line. Your opponent, the computer, races you around the track and has a probability of answering correctly."
     
     },
+    {
+        "id": 3,
+        "projectName": "This Site!",
+        "img": "",
+        "GitHub":"https://github.com/Nicholas-Mercado/nm-website-port" ,
+        "Jupyter": "",
+        "description": "This site is built with React, Material UI, and styled with SCSS. It is hosted by AWS."
+    
+    },
     
     
 ]
