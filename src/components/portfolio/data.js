@@ -14,7 +14,7 @@ const dataN = [
         "img": "assets/dodoom.png",
         "GitHub":"https://github.com/TheG0ATS/do-or-doom-fe" ,
         "Jupyter": "",
-        "description": "A task list application that allows a user to create tasks,set a due date, and add an accountability partner. If that task is not completed by the due date a text message is sent to your accountability partner. This application uses a next.js frontend and a Django backend with an ElephantSQL database."
+        "description": "A task list application that allows a user to create tasks, set a due date, and add an accountability partner. If that task is not completed by the due date a text message is sent to your accountability partner. This application uses a React-next.js frontend and a Django backend with an ElephantSQL database."
     
     },
     {
