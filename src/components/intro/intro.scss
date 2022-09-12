@@ -14,10 +14,16 @@
     
     
     .top{
-        flex: 0.4;
+        height: inherit;
         background-color: 
         inherit;
         position: relative;
+
+        @include mobile{
+            align-items: center;
+            padding:20%;
+            height:min-content;
+        }
         
         .wrapper{
             height: auto;
@@ -29,6 +35,11 @@
             flex-direction: column;
             color: #fffeff;
             width: fit-content;
+
+            @include mobile{
+                padding-top: 10%;
+                align-items: center;
+            }
             
             
             a{
@@ -67,11 +78,15 @@
             
 
             img{
-                
+               
                 width: 40%;
                 position: absolute;
                 margin-right:40%;
                 bottom: 0;
+
+                @include mobile{
+                    width: 80%;
+            } 
             }
         }
     }
