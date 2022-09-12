@@ -4,7 +4,7 @@
     background-color: white;
     display: flex;
 
-    @include mobile{
+    @include mobile {
         flex-direction: column;
         align-items: center;
     }
@@ -15,35 +15,32 @@
         flex-direction: column;
         background-color: white;
 
-        
+        p {
+            color: inherit;
+            font-size: 3vh;
+            font-weight: 200;
+            text-decoration: none;
 
-        p{
-                color: inherit;
-                font-size: 3vh;
-                font-weight: 200;
-                text-decoration: none;
-                @include mobile{
-                    max-width: fit-content;
-                }
-                
+            @include mobile {
+                max-width: fit-content;
+            }
         }
+
         .title-section {
             color: white;
             margin-left: 60%;
             font-size: 6vh;
-
-
         }
+
         .here {
             color: black;
             font-size: 10vh;
             text-align: center;
             margin-top: 20%;
-            @include mobile{
+            @include mobile {
                 margin-top: 5%;
             }
         }
-
     }
 
     .right {
@@ -52,18 +49,15 @@
         flex-direction: column;
         background-color: #2ac6ff;
 
-
-
         .title-section {
             color: white;
             margin-left: 60%;
             font-size: 6vh;
-            @include mobile{
+
+            @include mobile {
                 display: none;
             }
-
         }
-    
 
         .chat {
             color: white;
@@ -72,47 +66,47 @@
             margin-top: 20%;
 
             .links {
-
                 color: inherit;
                 font-size: 3vh;
                 margin-top: 8%;
                 font-weight: 100;
                 text-decoration: none;
-
-
             }
-            .icon-row{
+
+            .icon-row {
                 text-align: center;
                 margin-left: 50%;
                 width: 20%;
                 display: flex;
                 justify-content: space-evenly;
-                @include mobile{
+                @include mobile {
                     width: 30%;
                 }
 
                 .smallIcons {
                     width: 4vh;
-                    
-                    @include mobile{
+                    @include mobile {
                         width: 5vh;
                         margin-bottom: 5%;
                     }
                 }
-    
+
                 .smallIcons1 {
                     width: 3vh;
                     margin-bottom: 18%;
-                    @include mobile{
+
+                    @include mobile {
                         margin-bottom: 12%;
                         margin-left: 10%;
                         width: 4.2vh;
                     }
                 }
+
                 .smallIcons2 {
                     width: 3vh;
                     margin-bottom: 18%;
-                    @include mobile{
+
+                    @include mobile {
                         width: 4vh;
                     }
                 }
