@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+
   
   .port-area{
     justify-content: center;
@@ -46,7 +47,7 @@
     left: 0;
     transition: all 1s ease-out;
     
-
+    
 
     .container {
       width: 100vw;
@@ -63,6 +64,12 @@
         align-items: center;
         justify-content: center;
 
+        @include mobile{
+          flex-direction: column;
+          align-items: center;
+          height: 100%;
+
+        }
        
 
         .left {
@@ -87,7 +94,11 @@
             h2 {
               font-size: 6vh;
               text-decoration: underline;
-
+              @include mobile{
+                margin-top: 10%;
+                font-size: 4vh;
+              
+              }
              
             }
             p {
@@ -95,6 +106,9 @@
               font-size: 3vh;
               text-indent: 50px;
               line-height: 120%;
+              @include mobile{
+                font-size: 2.9vh;
+              }
             }
             a{
               font-size: 3vh;
@@ -116,10 +130,16 @@
           align-items: center;
           justify-content: center;
           overflow: hidden;
+          display: none;
+          
 
           img {
             width: 80vh;
             transform: rotate(-10deg);
+            @include mobile{
+              height: 0;
+              width: auto;
+            }
           }
         }
       }
