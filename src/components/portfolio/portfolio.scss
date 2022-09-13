@@ -134,8 +134,9 @@
           align-items: center;
           justify-content: center;
           overflow: hidden;
-          display: none;
-          
+          @include mobile{
+            display: none;
+          }
 
           img {
             width: 80vh;
