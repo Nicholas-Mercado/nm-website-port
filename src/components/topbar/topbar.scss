@@ -4,14 +4,17 @@
     width: 100%;
     height: 70px;
     background-color: 
-    
-#fffeff;
+    #fffeff;
     color: 
     #2ac6ff;
     top: 0;
     position: fixed;
     z-index: 3;
     transition: all 1s ease;
+
+    @include mobile{
+      height: 17.5vh;
+  }
 
     .wrapper {
         padding: 10px 30px;
