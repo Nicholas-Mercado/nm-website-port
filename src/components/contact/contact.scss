@@ -39,6 +39,7 @@
             margin-top: 20%;
             @include mobile {
                 margin-top: 5%;
+                font-size: 8vh;
             }
         }
     }
@@ -56,6 +57,7 @@
 
             @include mobile {
                 display: none;
+                
             }
         }
 
@@ -64,6 +66,9 @@
             font-size: 10vh;
             text-align: center;
             margin-top: 20%;
+            @include mobile{
+                font-size: 7vh;
+            }
 
             .links {
                 color: inherit;
@@ -80,7 +85,7 @@
                 display: flex;
                 justify-content: space-evenly;
                 @include mobile {
-                    width: 30%;
+                    width: 40%;
                 }
 
                 .smallIcons {
@@ -97,7 +102,7 @@
 
                     @include mobile {
                         margin-bottom: 12%;
-                        margin-left: 10%;
+                        margin-left: 4%;
                         width: 4.2vh;
                     }
                 }
