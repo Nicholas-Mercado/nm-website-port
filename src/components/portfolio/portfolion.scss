@@ -1,0 +1,33 @@
+@import "../../global.scss";
+
+
+.portfolio {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+    .cardholder{
+        background-color:red;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        .card{
+            
+            height: auto;
+            background-color:white;
+            margin: 10%;
+            padding: 5%;
+            border-radius: 2%;
+            .card-size{
+                height: 40vh;
+
+                img{
+                    max-width: 50%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+
