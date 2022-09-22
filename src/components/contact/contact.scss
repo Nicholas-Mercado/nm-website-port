@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact {
-    background-color: white;
+    background-color: $mainColor;
     display: flex;
 
     @include mobile {
@@ -13,7 +13,7 @@
         flex: .5;
         display: flex;
         flex-direction: column;
-        background-color: white;
+        background-color: #f6f6f9;
 
         p {
             color: inherit;
@@ -27,13 +27,13 @@
         }
 
         .title-section {
-            color: white;
+            color: #f6f6f9;
             margin-left: 60%;
             font-size: 6vh;
         }
 
         .here {
-            color: black;
+            color:#212129;
             font-size: 10vh;
             text-align: center;
             margin-top: 20%;
@@ -48,10 +48,10 @@
         flex: .5;
         display: flex;
         flex-direction: column;
-        background-color: #2ac6ff;
+        background-color: #40445a;
 
         .title-section {
-            color: white;
+            color: $fontColor;
             margin-left: 60%;
             font-size: 6vh;
 
@@ -62,7 +62,7 @@
         }
 
         .chat {
-            color: white;
+            color: $fontColor;
             font-size: 10vh;
             text-align: center;
             margin-top: 20%;
