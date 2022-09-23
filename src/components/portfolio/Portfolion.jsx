@@ -10,7 +10,7 @@ export default function Portfolion() {
             <div className="row flip-boxes">
                 <div className="col-md-3 col-sm-4 col-8 flip-box">
                     <div className="front" >
-                        <img src={data.img} alt="project img"></img>
+                        {/* <img id="imgs" src={data.img} alt="project img" /> */}
                         <div className="content text-center">
                         <h2>{data.projectName}</h2>
                         <span className="click-for-more">
@@ -19,7 +19,22 @@ export default function Portfolion() {
                     </div>
                 <div className="back">
                     <div className="content">
-                    First Back
+                    {data.description}
+                    <div>
+                    <div>---Links---</div>
+                        <a target="_blank" href={data.GitHub} rel="noreferrer" >GitHub</a>
+                        <div>
+                        { 
+                        (data.Jupyter === '')
+                        ? <div></div> 
+                        : <div>
+                            <a target="_blank" href={data.Jupyter} rel="noreferrer" >Jupyter Notebook</a>
+                        </div> 
+                        }
+                            
+                        </div>
+
+                    </div>
                     </div>
                 </div>
                 </div>

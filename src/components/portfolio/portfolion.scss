@@ -6,6 +6,14 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+#imgs{
+    filter: blur(2px);
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width:100%;
+}
 .flip-boxes {
   justify-content: space-evenly;
 }
@@ -30,6 +38,13 @@ body {
     .front {
       transform: rotateY(180deg);
       z-index: -1;
+
+      img{
+        z-index: -1;
+        filter: blur(2px);
+        
+      }
+      
     }
     
   }
@@ -72,9 +87,14 @@ body {
   
   .front {
     z-index: 10;
-    
+    position: relative;
+    display: flex;
+    align-content:center;
+    justify-content: center;
     .content {
+      
       font-size: 2rem;
+      position: absolute;
     }
     
     &:after {
@@ -84,12 +104,15 @@ body {
       right: 0;
       width: 30px;
       height: 30px;
+      
       border-bottom-color: white;
       border-right-color: white;
     }
   }
   
   .content {
+    text-align: center;
+    margin: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
