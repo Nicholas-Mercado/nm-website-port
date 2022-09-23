@@ -12,7 +12,7 @@ body {
     height: 100%;
 }
 .container{
-    width:100%;
+    width:90%;
 }
 .flip-boxes {
   justify-content: space-evenly;
@@ -20,11 +20,12 @@ body {
 .flip-box {
   display: flex;
   align-content: stretch;
-  min-height: 200px;
+  min-height: 20vh;
+  width: auto;
   flex-wrap: wrap;
   position: relative;
   border: 10px solid transparent;
-  padding: $padding-flip;
+  padding: 0;
   border-top: 0;  
   -webkit-perspective: 1000;
           perspective: 1000;
@@ -38,12 +39,6 @@ body {
     .front {
       transform: rotateY(180deg);
       z-index: -1;
-
-      img{
-        z-index: -1;
-        filter: blur(2px);
-        
-      }
       
     }
     
