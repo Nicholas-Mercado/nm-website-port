@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro"
 import Portfolio from "./components/portfolio/Portfolio"
-import Portfolion from "./components/portfolio/Portfolion"
+// import Portfolion from "./components/portfolio/Portfolion"
 // import AboutMe from "./components/aboutMe/AboutMe"
 import Contact from "./components/contact/Contact"
 import "./app.scss"
@@ -24,7 +24,7 @@ function App() {
         toggleMenu={toggleMenu}/>
       <div className="sections">
         <Intro menuOpen={menuOpen} />
-        <Portfolion />
+        {/* <Portfolion /> */}
         <Portfolio />
         {/* <AboutMe /> */}
         <Contact />
