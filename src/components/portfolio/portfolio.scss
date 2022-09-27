@@ -2,7 +2,7 @@
 
 
 .portfolio {
-  background-color: white;
+  background-color: $mainColor;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +62,7 @@
       .item {
         width: 180vh;
         height: 90%;
-        background-color: #2ac6ff;
+        background-color: $mainColor;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -81,7 +81,6 @@
           display: flex;
           align-items: center;
           margin-left: 10%;
-          // background-color:white;
           justify-content: center;
           
           .leftContainer {
