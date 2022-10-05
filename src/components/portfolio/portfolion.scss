@@ -1,19 +1,25 @@
 @import "../../global.scss";
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
+    
 }
 #imgs{
-    filter: blur(2px);
-    max-width:40%;
-    // max-height:70%;
-    object-fit: contain;
+    filter: blur(1px);
+    object-fit: cover;
 }
-.container{
-    width:90%;
+.portfolio{
+  // flex-direction: column;
+  display: flex;
+  text-align: center;
+    .container{
+        width:20%;
+        height: 40%;
+        // overflow: none;
+        // background-color:aliceblue;
+        
+        
+    }
 }
 .flip-boxes {
   justify-content: space-evenly;
@@ -108,7 +114,8 @@ body {
   
   .content {
     text-align: center;
-    margin: 5%;
+    // margin: 15%;
+    padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
