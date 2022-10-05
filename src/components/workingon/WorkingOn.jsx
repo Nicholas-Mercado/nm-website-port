@@ -18,7 +18,11 @@ export default function WorkingOn() {
                   <div className="youtube">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/xc1VpbRd4is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-                  <div className="imgs"></div>
+                  <div className="other">
+                    <h3>Currently studying</h3>
+                    <p>I am studying to take my Cloud practitioner exam from AWS.</p>
+                    <p>Link place holders</p>
+                  </div>
                 </div>
 
               </div>
