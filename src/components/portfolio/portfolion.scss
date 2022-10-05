@@ -9,12 +9,15 @@ body {
     object-fit: cover;
 }
 .portfolio{
-  // flex-direction: column;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 40%); 
+  gap:10%;
+  justify-content: center;
   text-align: center;
     .container{
-        width:20%;
-        height: 40%;
+        
+        width:auto;
+        height: auto;
         // overflow: none;
         // background-color:aliceblue;
         
