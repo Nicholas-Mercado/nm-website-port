@@ -1,5 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro"
+import WorkingOn from "./components/workingon/WorkingOn"
 import Portfolio from "./components/portfolio/Portfolio"
 // import Portfolion from "./components/portfolio/Portfolion"
 // import AboutMe from "./components/aboutMe/AboutMe"
@@ -26,6 +27,7 @@ function App() {
         <Intro menuOpen={menuOpen} />
         {/* <Portfolion /> */}
         <Portfolio />
+        <WorkingOn/>
         {/* <AboutMe /> */}
         <Contact />
 
