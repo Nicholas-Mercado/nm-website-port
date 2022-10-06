@@ -9,19 +9,18 @@ body {
     object-fit: cover;
 }
 .portfolio{
+  background-color: $mainColor;
+  align-items: center;
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(2, 40%); 
-  gap:10%;
+  grid-template-columns: repeat(2, 30%); 
+  gap:2%;
   justify-content: center;
   text-align: center;
-    .container{
-        
-        width:auto;
-        height: auto;
-        // overflow: none;
-        // background-color:aliceblue;
-        
-        
+  .container{
+    width: 22vw;
+    height: 350px;
+    margin: 0 auto;
     }
 }
 .flip-boxes {
@@ -30,7 +29,7 @@ body {
 .flip-box {
   display: flex;
   align-content: stretch;
-  min-height: 20vh;
+  min-height: 26vh;
   width: auto;
   flex-wrap: wrap;
   position: relative;
@@ -97,7 +96,7 @@ body {
     align-content:center;
     justify-content: center;
     .content {
-      
+      min-height: 40%;
       font-size: 2rem;
       position: absolute;
     }
