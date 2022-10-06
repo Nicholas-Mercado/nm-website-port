@@ -7,8 +7,10 @@
   align-items: center;
   justify-content: center;
   position: relative;
-
-  
+  display: none;
+  @include mobile {
+    display: flex;
+  }
   .port-area{
     justify-content: center;
     position: relative;

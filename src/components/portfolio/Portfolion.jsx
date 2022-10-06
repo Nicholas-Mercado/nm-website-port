@@ -4,7 +4,7 @@ import data from './data.js';
 export default function Portfolion() {
   return (
 <>                 
-    <div className="scene portfolio" id="portfolio">
+    <div className="scene portfolion" id="portfolion">
     {data.map((data, index) => ( 
         <div key={data.id} className="container">
         

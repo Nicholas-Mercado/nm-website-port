@@ -11,7 +11,7 @@ body {
       
     }
 }
-.portfolio{
+.portfolion{
   background-color: $mainColor;
   align-items: center;
   position: relative;
@@ -22,7 +22,7 @@ body {
   text-align: center;
 
   @include mobile {
-    display: flex;
+    display: none;
     flex-direction: column;
 }
   .container{
