@@ -13,7 +13,7 @@
         flex: .5;
         display: flex;
         flex-direction: column;
-        background-color: #f6f6f9;
+        background-color: $fontColor;
 
         p {
             color: inherit;
@@ -27,7 +27,7 @@
         }
 
         .title-section {
-            color: #f6f6f9;
+            color: $fontColor;
             margin-left: 60%;
             font-size: 6vh;
         }

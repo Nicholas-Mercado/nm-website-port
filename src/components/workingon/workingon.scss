@@ -1,0 +1,161 @@
+@import "../../global.scss";
+
+.workingon{
+    background-color: $mainColor;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    .container{
+        border-radius: 30px;
+        background-color:#40445a;
+        width: 80%;
+        height: 80%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        @include mobile {
+            margin-top: 10%;
+            height: 95%;
+            width: 100%;
+            border-radius:0;
+        }
+        h2{
+            font-size: 3vw;
+            color:$fontColor;
+            overflow: hidden;
+            padding: 2%;
+            @include mobile {
+                font-size: 6vw;
+            }
+        }
+        .card{
+            display: flex;
+            justify-content: space-evenly;
+            height: 100%;
+            background-color: #40445a;
+            @include mobile {
+                margin-top: 10%;
+                flex-direction: column;
+                align-items: center;
+            }
+            .left{
+                border-radius: 30px;
+                padding: 2%;
+                height: 80%;
+                width:30%;
+                background-color:#4c5265;
+                display: flex;
+                justify-content: center;
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                @include mobile {
+                    width: 100%;
+                    border-radius:0;
+                }
+                .details{
+                    color:$fontColor;
+
+                    h3{
+                        font-size: 2vw;
+                    }
+                    
+                    h4{
+                        font-size: 1.3vw;
+                        margin: 5%;
+                    }
+
+                    p{
+                        text-align: left;
+                    }
+                    li{
+                        text-align: left;
+                    }
+                    h5{
+                        font-size: 1vw;
+                        margin: 5%;
+                    }
+
+                    .resources{
+                        margin: 2%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        
+                        a{
+                            text-decoration: none;
+                            font-size: .7vw;
+                            color:$fontColor;
+                        }
+                        a:hover{
+                            color:aliceblue;
+                            font-size: .8vw;
+                        }
+                    }
+                }
+                @include mobile {
+                    
+                }
+            }
+
+            .right{
+                border-radius: 30px;
+                padding: 2%;
+                height: 80%;
+                width:30%;
+                display: flex;
+                background-color: #4c5265;
+                flex-direction: column;
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                @include mobile {
+                    margin-top: 1%;
+                    width: 100%;
+                    border-radius:0;
+                }
+
+                .details-r{
+                    color:$fontColor;
+
+                    h3{
+                        font-size: 2vw;
+                    }
+                    h4{
+                        font-size: 1.3vw;
+                        margin: 5%;
+                    }
+
+                    p{
+                        text-align: left;
+                    }
+                    li{
+                        text-align: left;
+                    }
+                    h5{
+                        font-size: 1vw;
+                        margin: 5%;
+                    }
+                    img{
+                        height: 30%;
+                    }
+
+                    .resources{
+                        margin: 2%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        
+                        a{
+                            text-decoration: none;
+                            font-size: .7vw;
+                            color:$fontColor;
+                        }
+                        a:hover{
+                            color:aliceblue;
+                            font-size: .8vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

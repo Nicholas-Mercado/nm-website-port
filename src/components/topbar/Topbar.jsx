@@ -10,10 +10,10 @@ export default function Topbar({menuOpen, toggleMenu}) {
               Nicholas Mercado
             </a>
             <div>
-              <a href="https://www.linkedin.com/in/nicholasmercado/">
+              <a href="https://www.linkedin.com/in/nicholasmercado/" target="_blank" rel="noreferrer">
                 <img className="smallIcons" alt="" src="assets/lw.png"/>
               </a>
-              <a href="https://www.linkedin.com/in/nicholasmercado/">
+              <a href="https://www.linkedin.com/in/nicholasmercado/" target="_blank" rel="noreferrer">
                 <img className="smallIcons1" alt="" src="assets/tw.png"/>
               </a>
             </div>

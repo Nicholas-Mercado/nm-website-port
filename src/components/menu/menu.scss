@@ -1,14 +1,14 @@
 @import "../../global.scss";
 
 .menu {
-    width: 300px;
+    width: 350px;
     height: 100vh;
     background-color: 
     #4c5265;
     position: fixed;
     top: 0;
-    right: -300px;
-    z-index: 2;
+    right: -350px;
+    z-index: 14;
     display: flex;
     justify-content: center;
     // align-items: center;
@@ -16,6 +16,8 @@
 
     @include mobile{
         align-items: center;
+        width: 100%;
+        right: -100%;
 } 
     &.active {
         right: 0;

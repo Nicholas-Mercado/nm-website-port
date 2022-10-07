@@ -15,6 +15,9 @@ export default function Menu({menuOpen, toggleMenu}) {
                 <a href="#aboutMe">About Me</a>
             </li> */}
             <li onClick={()=>toggleMenu(false)}>
+                <a href="#workingon">Current Projects</a>
+            </li>
+            <li onClick={()=>toggleMenu(false)}>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
