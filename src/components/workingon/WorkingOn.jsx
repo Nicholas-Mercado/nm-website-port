@@ -32,10 +32,19 @@ export default function WorkingOn() {
                 </div>
                 <div className="right">
                   
-                  <div className="other">
-                    <h3>Currently studying</h3>
-                    <p>I am studying to take my Cloud practitioner exam from AWS.</p>
-                    <p>Link place holders</p>
+                <div className="details-r">
+                    <h3>Current Studying</h3>
+                    <h4>AWS Certified Cloud Practitioner Certification</h4>
+                    <p> I am currently studying to take my AWS Cloud Practitioner exam. If you are interested, I have some resources I am using to study for the exam below.
+                    </p>
+                    <img src="assets/cp_image.png" alt="AWS CCP Logo"/>
+                      <h5>Resource & Links</h5>
+                    <div className="resources">
+                      <a target="_blank" href="https://www.udemy.com/course/aws-certified-cloud-practitioner-new" rel="noreferrer" >Udemy</a>
+                      <a target="_blank" href="https://www.youtube.com/watch?v=SOTamWNgDKc" rel="noreferrer" >AWS Certified Cloud Practitioner Certification Course</a>
+                      
+                      <a target="_blank" href="https://aws.amazon.com/certification/certified-cloud-practitioner/" rel="noreferrer" >AWS Site</a>
+                  </div>
                   </div>
                 </div>
 
