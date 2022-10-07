@@ -75,8 +75,8 @@ body {
     align-content: center;
     flex: 0 0 100%;
     // -webkit-transition: all 1s cubic-bezier(.5,1,.5,1);
-    transition: all 1s cubic-bezier(.5,1,.5,1);
-    // transform-style: preserve-3d;
+    // transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 1);
+    transform-style: preserve-3d;
     background-size: cover;
     background-position: center;
   }
