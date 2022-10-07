@@ -6,7 +6,7 @@ export default function Portfolion() {
 <>                 
     <div className="scene portfolion" id="portfolion">
     {data.map((data, index) => ( 
-        <div key={data.id} className="container">
+        <div key={data.id} className="container-s">
         
             <div className="row flip-boxes">
                 <div className="col-md-3 col-sm-4 col-8 flip-box">
