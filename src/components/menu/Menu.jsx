@@ -9,7 +9,7 @@ export default function Menu({menuOpen, toggleMenu}) {
                 <a href="#intro">Home</a>
             </li>
             <li onClick={()=>toggleMenu(false)}>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolion">Portfolio</a>
             </li>
             {/* <li onClick={()=>toggleMenu(false)}>
                 <a href="#aboutMe">About Me</a>
