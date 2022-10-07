@@ -18,7 +18,7 @@
             margin-top: 10%;
         }
         h2{
-            font-size: 2vw;
+            font-size: 3vw;
             color:$fontColor;
             overflow: hidden;
             padding: 2%;
@@ -42,6 +42,46 @@
                 display: flex;
                 justify-content: center;
                 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+                .details{
+                    color:$fontColor;
+
+                    h3{
+                        font-size: 2vw;
+                    }
+                    h4{
+                        font-size: 1.3vw;
+                        margin: 5%;
+                    }
+
+                    p{
+                        text-align: left;
+                    }
+                    li{
+                        text-align: left;
+                    }
+                    h5{
+                        font-size: 1vw;
+                        margin: 5%;
+                    }
+
+                    .resources{
+                        margin: 2%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        
+                        a{
+                            text-decoration: none;
+                            font-size: .9vw;
+                            color:$fontColor;
+                        }
+                        a:hover{
+                            color:aliceblue;
+                            font-size: 1vw;
+                        }
+                    }
+                }
                 @include mobile {
                     height: 20%;
                     width: 90%;

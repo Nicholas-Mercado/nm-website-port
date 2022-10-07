@@ -10,10 +10,23 @@ export default function WorkingOn() {
               <div className="card">
                 <div className="left">
                   <div className="details">
-                    <h3>DND-Bot</h3>
-                    <p> Stuff and details about the dnd bot</p>
-                    <div className="youtube">
-                  <iframe width="460" height="255" src="https://www.youtube.com/embed/xc1VpbRd4is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Current Project</h3>
+                    <h4>dnd-bot</h4>
+                    <p> I stumbled on a Dungeons and Dragons API and knew I had to build something with it. Dnd-bot's first version is a discord bot where you can use a slash command to return a random fact about the DnD 5e gaming system. I am using the Hikari python microframework to communicate with discord API. I highly recommend it. Great docs!
+                    </p>
+                    <div className="next-s">
+                      <h5>Next Steps:</h5>
+                      <li>Build more tests</li>
+                      <li>Host code</li>
+                      <li>Update readme</li>
+                      <li>Intro video</li>
+                    </div>
+                      <h5>Resource & Links</h5>
+                    <div className="resources">
+                      <a target="_blank" href="https://github.com/Nicholas-Mercado/dnd-bot" rel="noreferrer" >GitHub</a>
+                      <a target="_blank" href="https://github.com/hikari-py/hikari" rel="noreferrer" >Hikari</a>
+                      
+                      <a target="_blank" href="https://www.dnd5eapi.co/" rel="noreferrer" >D&D 5e API</a>
                   </div>
                   </div>
                 </div>
